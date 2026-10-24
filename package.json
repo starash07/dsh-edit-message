@@ -1,7 +1,7 @@
 {
   "name": "dsh-edit-message",
   "version": "1.0.0",
-  "description": "Right-click a sent user message to edit it: the text returns to the composer, and the resent message voids the old one (hidden marker + greyed history) · 右键已发送的用户消息进行编辑：原文回到输入框，重发后旧消息作废（隐藏标记 + 置灰历史）",
+  "description": "右键最新一条用户消息进行编辑，重发后标记上一条用户消息及其回答作废",
   "license": "MIT",
   "author": "starash07",
   "repository": {
