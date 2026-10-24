@@ -1,0 +1,37 @@
+{
+  "name": "dsh-edit-message",
+  "version": "1.0.0",
+  "description": "Right-click a sent user message to edit it: the text returns to the composer, and the resent message voids the old one (hidden marker + greyed history) · 右键已发送的用户消息进行编辑：原文回到输入框，重发后旧消息作废（隐藏标记 + 置灰历史）",
+  "license": "MIT",
+  "author": "starash07",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starash07/dsh-edit-message.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "message",
+    "edit"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
